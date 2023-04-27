@@ -9,9 +9,9 @@
       rel="stylesheet" />
    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
       type="text/css" />
-   <link rel="stylesheet" href="./css/main.css" />
    <!-- <link rel="stylesheet" href="./css/customStyles.css" /> -->
    <link rel="stylesheet" href="./css/customStyles-new.css" />
+   <link rel="stylesheet" href="./css/main.css" />
 </head>
 
 <body>
@@ -64,507 +64,417 @@
    </div>
    <!-- secondary nav -->
    <!-- main body content -->
-   <div class="custom_body_wrap custom_container">
+   <div class="custom_body_wrap custom_container with-top-omnebar with-top-navmenu">
       <div data-content="one" class="active">
-         <div class="esign-card with-top-navmenu with-top-secondarynav doc_inbox without-consultant-details">
-            <div class="inbox-header col-lg-12 pd-0 d-flex flex-wrap justify-content-between">
-               <div class="col-lg-3 d-flex align-items-center">
-                  <h4 class="pd-0 pdt-3 pdy-lg-3 mg-0">Inbox</h4>
+         <div class="omne-card full-details">
+            <div class="full-details-header bb-1 col-lg-12 d-flex flex-wrap justify-content-between pdy-2 pdx-0">
+               <div class="col-lg-9 pd-0 pdx-2">
+                  <div class="col-lg-6 pd-0 pdx-2">
+                     <div class="form-group mg-lg-0 mgb-3">
+                        <label for="">&nbsp;</label>
+                        <span class="has-icon d-block has-dropdown has-advance-filter">
+                           <input type="text" id="ERName" class="text_12 form-control"
+                              placeholder="Search by Candidate Name" value="">
+                           <i class="con pe-all cursor-pointer pdx-2" style="right: 27px;">
+                              <img src="./images/icons/ic-search.svg" alt="ic-search">
+                           </i>
+                           <i class="con js_dropdown_container_handler pe-all cursor-pointer">
+                              <img src="./images/icons/ic-bottom-arrow.svg" alt="ic-search">
+                           </i>
+                           <div class="dropdown-container advance-filter-block omne-card pd-0 mg-0 pdt-2 pdb-3">
+                              <div class="advance-filter-header col-12 pd-0">
+                                 <h4 class="mg-0 pdx-3 pdy-2 mgb-2">
+                                    Filters
+                                    <i class="close"><img src="./images/icons/ic-close.svg" alt="ic-search" style="width:10px; height: 10px;"></i>
+                                 </h4>
+                              </div>
+                              <div class="advance-filter-body col-12 pd-0">
+                                 <div class="col-lg-12 pd-0">
+                                    <div class="form-group col-lg-6 pd-0 pdx-3">
+                                       <label for="SelectDocument">Select Document</label>
+                                       <span class="has-icon">
+                                          <select class="form-control required" name="" id="SelectDocument">
+                                             <option value="">Select Document Type</option>
+                                             <option value="">Document 1 type</option>
+                                             <option value="">Document 2 type</option>
+                                          </select>
+                                          <i class="con">
+                                             <img src="./images/icons/ic-bottom-arrow.svg">
+                                          </i>
+                                       </span>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-6 pd-0 pdx-3">
+                                    <div class="form-group">
+                                       <label for="SelectDocument">Select Document</label>
+                                       <span class="has-icon">
+                                          <select class="form-control required" name="" id="SelectDocument">
+                                             <option value="">Select Document Type</option>
+                                             <option value="">Document 1 type</option>
+                                             <option value="">Document 2 type</option>
+                                          </select>
+                                          <i class="con">
+                                             <img src="./images/icons/ic-bottom-arrow.svg">
+                                          </i>
+                                       </span>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-6 pd-0 pdx-3">
+                                    <div class="form-group">
+                                       <label for="SelectDocument">Select Document</label>
+                                       <span class="has-icon">
+                                          <select class="form-control required" name="" id="SelectDocument">
+                                             <option value="">Select Document Type</option>
+                                             <option value="">Document 1 type</option>
+                                             <option value="">Document 2 type</option>
+                                          </select>
+                                          <i class="con">
+                                             <img src="./images/icons/ic-bottom-arrow.svg">
+                                          </i>
+                                       </span>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-6 pd-0 pdx-3">
+                                    <div class="form-group">
+                                       <label for="SelectDocument">Select Document</label>
+                                       <span class="has-icon">
+                                          <select class="form-control required" name="" id="SelectDocument">
+                                             <option value="">Select Document Type</option>
+                                             <option value="">Document 1 type</option>
+                                             <option value="">Document 2 type</option>
+                                          </select>
+                                          <i class="con">
+                                             <img src="./images/icons/ic-bottom-arrow.svg">
+                                          </i>
+                                       </span>
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-6 pd-0 pdx-3">
+                                    <div class="form-group">
+                                       <label for="" class="">Status</label>
+                                       <div class="form-check-inline height-35">
+                                          <label class="form-check-label mg-0">
+                                             <input type="radio" class="form-check-input" name="optradio"> Active
+                                          </label>
+                                       </div>
+                                       <div class="form-check-inline height-35">
+                                          <label class="form-check-label mg-0">
+                                             <input type="radio" class="form-check-input" name="optradio"> Inactive
+                                          </label>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="advance-filter-footer col-12 pd-0"></div>
+                           </div>
+                        </span>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 pd-0 pdx-2">
+                     <div class="form-group mg-lg-0 mgb-3">
+                        <label for="">Estimated Start Date</label>
+                        <span class="has-icon">
+                           <input type="date" class="form-control">
+                           <!-- <i class="con">
+                              <img src="./images/icons/ic-bottom-arrow.svg">
+                           </i> -->
+                        </span>
+                     </div>
+                  </div>
+                  <div class="col-lg-2 pdx-2 pdx-lg-0">
+                     <div class="form-group mg-0">
+                        <label class="mgb-2 d-none d-lg-block" for="">&nbsp;</label>
+                        <button class="obtn obtn-primary obtn-sm">Search</button>
+                     </div>
+                  </div>
                </div>
-               <div class="col-lg-9 d-flex flex-wrap justify-content-start pdt-3">
-                  <div class="col-lg-6 pd-0 mgr-lg-5">
-                     <div class="form-group input_icon">
-                        <input type="text" id="ERName" class="text_12 form-control"
-                           placeholder="Search by Candidate Name" value="">
-                        <span>
-                           <img src="./images/icons/ic-search.svg" alt="ic-search">
-                        </span>
-                     </div>
+               <div
+                  class="activeInactive-block col-lg-3 pd-0 pdx-2 d-flex flex-wrap align-items-center justify-content-start">
+                  <div class="form-group mg-0">
+                     <label for="">&nbsp;</label>
+                     <span class="font-12 font-lg-16 font-weight-500 pdx-2">Active Count &nbsp;<b
+                           class="text-color--secondary">10</b></span>
+                     <span class="font-12 font-lg-16 font-weight-500 pdl-2">Inactive Count &nbsp;<b
+                           class="text-color--secondary">05</b></span>
                   </div>
-                  <div class="col-lg-4 pd-0">
-                     <div class="form-group dropdown">
-                        <span>
-                           <select class="form-control required" name="" id="">
-                              <option value="" selected style="color: red;">Select Document Type</option>
-                              <option value="">Reject</option>
-                           </select>
-                        </span>
-                     </div>
-                  </div>
+               </div>
+            </div>
+            <div class="full-details-body col-lg-12 pd-3">
+               <!-- <h4 class="mg-0 pd-0 pdb-3">Standard Table Heading</h4> -->
+               <div class="table_wrap xre_table standard-table pd-0 table-respo">
+                  <table class="">
+                     <thead>
+                        <tr>
+                           <th class="colw-13 custom_th">Contributon</th>
+                           <th class="colw-13 custom_th">Stage</th>
+                           <th class="colw-13 custom_th">Sub Stage</th>
+                           <th class="colw-13 custom_th">Client/ Consultant</th>
+                           <th class="colw-12 custom_th">Payment Applicable</th>
+                           <th class="colw-12 custom_th">Status</th>
+                           <th class="colw-12 custom_th">Units</th>
+                           <th class="colw-12 custom_th">Amount</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td class="colw-13 custom_td" title="Contributon">
+                              Carmelita Marsham
+                              <span>123456</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Stage">
+                              WF104 | Wells Fargo
+                              <span>AT123 | AT & T</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Sub Stage">Ohio</td>
+                           <td class="colw-13 custom_td" title="Client/ Consultant">03/02/2023</td>
+                           <td class="colw-12 custom_td" title="Payment Applicable"> Krunal.Patel</td>
+                           <td class="colw-12 custom_td" title="Status"> Palakshah</td>
+                           <td class="colw-12 custom_td" title="Units">Active</td>
+                           <td class="colw-12 custom_td" title="Amount">
+                              <img src="./images/icons/ic-eye.svg" alt="">
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="colw-13 custom_td" title="Contributon">
+                              Minhaj Mohammad
+                              <span>123456</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Stage">
+                              WF104 | Wells Fargo
+                              <span>AT123 | AT & T</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Sub Stage">Ohio</td>
+                           <td class="colw-13 custom_td" title="Client/ Consultant">03/02/2023</td>
+                           <td class="colw-12 custom_td" title="Payment Applicable"> Krunal.Patel</td>
+                           <td class="colw-12 custom_td" title="Status"> Palakshah</td>
+                           <td class="colw-12 custom_td" title="Units">Active</td>
+                           <td class="colw-12 custom_td" title="Amount">
+                              <img src="./images/icons/ic-eye.svg" alt="">
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="colw-13 custom_td" title="Contributon">
+                              Sanjay Patel
+                              <span>123456</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Stage">
+                              WF104 | Wells Fargo
+                              <span>AT123 | AT & T</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Sub Stage">Ohio</td>
+                           <td class="colw-13 custom_td" title="Client/ Consultant">03/02/2023</td>
+                           <td class="colw-12 custom_td" title="Payment Applicable"> Krunal.Patel</td>
+                           <td class="colw-12 custom_td" title="Status"> Palakshah</td>
+                           <td class="colw-12 custom_td" title="Units">Active</td>
+                           <td class="colw-12 custom_td" title="Amount">
+                              <img src="./images/icons/ic-eye.svg" alt="">
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="colw-13 custom_td" title="Contributon">
+                              Pradip Gadhiya
+                              <span>123456</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Stage">
+                              WF104 | Wells Fargo
+                              <span>AT123 | AT & T</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Sub Stage">Ohio</td>
+                           <td class="colw-13 custom_td" title="Client/ Consultant">03/02/2023</td>
+                           <td class="colw-12 custom_td" title="Payment Applicable"> Krunal.Patel</td>
+                           <td class="colw-12 custom_td" title="Status"> Palakshah</td>
+                           <td class="colw-12 custom_td" title="Units">Active</td>
+                           <td class="colw-12 custom_td" title="Amount">
+                              <img src="./images/icons/ic-eye.svg" alt="">
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="colw-13 custom_td" title="Contributon">
+                              Nikunj Gupta
+                              <span>123456</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Stage">
+                              WF104 | Wells Fargo
+                              <span>AT123 | AT & T</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Sub Stage">Ohio</td>
+                           <td class="colw-13 custom_td" title="Client/ Consultant">03/02/2023</td>
+                           <td class="colw-12 custom_td" title="Payment Applicable"> Krunal.Patel</td>
+                           <td class="colw-12 custom_td" title="Status"> Palakshah</td>
+                           <td class="colw-12 custom_td" title="Units">Active</td>
+                           <td class="colw-12 custom_td" title="Amount">
+                              <img src="./images/icons/ic-eye.svg" alt="">
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="colw-13 custom_td" title="Contributon">
+                              Carmelita Marsham
+                              <span>123456</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Stage">
+                              WF104 | Wells Fargo
+                              <span>AT123 | AT & T</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Sub Stage">Ohio</td>
+                           <td class="colw-13 custom_td" title="Client/ Consultant">03/02/2023</td>
+                           <td class="colw-12 custom_td" title="Payment Applicable"> Krunal.Patel</td>
+                           <td class="colw-12 custom_td" title="Status"> Palakshah</td>
+                           <td class="colw-12 custom_td" title="Units">Active</td>
+                           <td class="colw-12 custom_td" title="Amount">
+                              <img src="./images/icons/ic-eye.svg" alt="">
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="colw-13 custom_td" title="Contributon">
+                              Minhaj Mohammad
+                              <span>123456</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Stage">
+                              WF104 | Wells Fargo
+                              <span>AT123 | AT & T</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Sub Stage">Ohio</td>
+                           <td class="colw-13 custom_td" title="Client/ Consultant">03/02/2023</td>
+                           <td class="colw-12 custom_td" title="Payment Applicable"> Krunal.Patel</td>
+                           <td class="colw-12 custom_td" title="Status"> Palakshah</td>
+                           <td class="colw-12 custom_td" title="Units">Active</td>
+                           <td class="colw-12 custom_td" title="Amount">
+                              <img src="./images/icons/ic-eye.svg" alt="">
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="colw-13 custom_td" title="Contributon">
+                              Sanjay Patel
+                              <span>123456</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Stage">
+                              WF104 | Wells Fargo
+                              <span>AT123 | AT & T</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Sub Stage">Ohio</td>
+                           <td class="colw-13 custom_td" title="Client/ Consultant">03/02/2023</td>
+                           <td class="colw-12 custom_td" title="Payment Applicable"> Krunal.Patel</td>
+                           <td class="colw-12 custom_td" title="Status"> Palakshah</td>
+                           <td class="colw-12 custom_td" title="Units">Active</td>
+                           <td class="colw-12 custom_td" title="Amount">
+                              <img src="./images/icons/ic-eye.svg" alt="">
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="colw-13 custom_td" title="Contributon">
+                              Pradip Gadhiya
+                              <span>123456</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Stage">
+                              WF104 | Wells Fargo
+                              <span>AT123 | AT & T</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Sub Stage">Ohio</td>
+                           <td class="colw-13 custom_td" title="Client/ Consultant">03/02/2023</td>
+                           <td class="colw-12 custom_td" title="Payment Applicable"> Krunal.Patel</td>
+                           <td class="colw-12 custom_td" title="Status"> Palakshah</td>
+                           <td class="colw-12 custom_td" title="Units">Active</td>
+                           <td class="colw-12 custom_td" title="Amount">
+                              <img src="./images/icons/ic-eye.svg" alt="">
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="colw-13 custom_td" title="Contributon">
+                              Nikunj Gupta
+                              <span>123456</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Stage">
+                              WF104 | Wells Fargo
+                              <span>AT123 | AT & T</span>
+                           </td>
+                           <td class="colw-13 custom_td" title="Sub Stage">Ohio</td>
+                           <td class="colw-13 custom_td" title="Client/ Consultant">03/02/2023</td>
+                           <td class="colw-12 custom_td" title="Payment Applicable"> Krunal.Patel</td>
+                           <td class="colw-12 custom_td" title="Status"> Palakshah</td>
+                           <td class="colw-12 custom_td" title="Units">Active</td>
+                           <td class="colw-12 custom_td" title="Amount">
+                              <img src="./images/icons/ic-eye.svg" alt="">
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
                </div>
             </div>
             <div class="clearfix clear-fix"></div>
-            <div class="table_wrap inbox-table-main accordion pd-4 table-respo" id="accordion21">
-               <div class="custom_table_head">
-                  <div class="custom_tr row accordion-group">
-                     <div class="custom_th colw-2">&nbsp;</div>
-                     <div class="custom_th colw-16">Candidate Name</div>
-                     <div class="custom_th colw-25">Client Name</div>
-                     <div class="custom_th colw-13">Start Date</div>
-                     <div class="custom_th colw-19">Received From</div>
-                     <div class="custom_th colw-13">Received Date</div>
-                     <div class="custom_th colw-4">&nbsp;</div>
-                     <div class="custom_th colw-4">&nbsp;</div>
-                     <div class="custom_th colw-4">&nbsp;</div>
-                  </div>
-               </div>
-               <div class="accordion-group custom_tr">
-                  <div class="accordion-heading">
-                     <div class="accordion-toggle custom_tr row collapsed">
-                        <div class="custom_td colw-2 pdx-2">
-                           <a data-toggle="collapse" data-parent="#accordion21" href="#collapseTwotwo"
-                              class="collapsed plus-toggle">&nbsp;</a>
-                        </div>
-                        <div class="custom_td colw-16 pdl-2">Priti Thakkar</div>
-                        <div class="custom_td colw-25">
-                           IBM
-                        </div>
-                        <div class="custom_td colw-13">07/23/2022</div>
-                        <div class="custom_td colw-19">shivani.sthakur@collabera.com</div>
-                        <div class="custom_td colw-13">07/23/2022</div>
-                        <div class="custom_td colw-4">
-                           <div class="table_actions">
-                              <span class="modal_open" data-modalName="emailWrap"><img src="./images/icons/ic-mail.svg"
-                                    alt="ic-mail" /></span>
-                           </div>
-                        </div>
-                        <div class="custom_td colw-4">
-                           <div class="table_actions">
-                              <span class="info-tooltip"><img class="open_popup" src="./images/icons/ic-person.svg"
-                                    alt="ic-mail" />
-                                 <div class="action_popup withLogo">
-                                    <div class="col-sm-12 pd-0 pdy-3 d-flex flex-wrap">
-                                       <div
-                                          class="col-lg-3 text-center float-none d-flex align-items-center justify-content-center">
-                                          <img class="" src="./images/logo-collabera-135x44.png" alt="">
-                                       </div>
-                                       <div class="col-lg-9 float-none pdx-0">
-                                          <div class="popup_header border-0">
-                                             <h6 class="">Onboarding Contact</h6>
-                                             <span class="close_popup"><img src="./images/icons/ic-popup-close.svg"
-                                                   alt="ic-popup-close"></span>
-                                          </div>
-                                          <div class="popup_body pdt-0">
-                                             <div class="row">
-                                                <div class="col-sm-12 d-flex flex-wrap rej_req_info">
-                                                   <span class="icon-block">
-                                                      <img src="./images/icons/ic-person.svg" alt="ic-person">
-                                                   </span>
-                                                   <span class="details-block pdt-1 pdl-1">
-                                                      <p>Kailash Maheshwari</p>
-                                                      <small>Senior Team Lead Operations</small>
-                                                   </span>
-                                                </div>
-                                                <div class="col-sm-12 d-flex flex-wrap rej_req_info">
-                                                   <span class="icon-block">
-                                                      <img src="./images/icons/ic-mail.svg" alt="ic-person">
-                                                   </span>
-                                                   <span class="details-block pdt-1 pdl-1">
-                                                      <p>
-                                                         <a
-                                                            href="mailto:kailash.maheshwari@collabera.com">kailash.maheshwari@collabera.com</a>
-                                                      </p>
-                                                   </span>
-                                                </div>
-                                                <div class="col-sm-12 d-flex flex-wrap rej_req_info">
-                                                   <span class="icon-block">
-                                                      <img src="./images/icons/ic-contact.svg" alt="ic-person">
-                                                   </span>
-                                                   <span class="details-block pdt-1 pdl-1">
-                                                      <p>
-                                                         <a href="tel:9738895200">973 889 5200</a>
-                                                      </p>
-                                                   </span>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </span>
-                           </div>
-                        </div>
-                        <div class="custom_td colw-4">
-                           <div class="table_actions">
-                              <span class="modal_open" data-modalName="emailWrap"><img
-                                    src="./images/icons/ic-pin-unactive.svg" alt="ic-mail" /></span>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div id="collapseTwotwo" class="accordion-body collapse expanded_data">
-                     <div class="accordion-inner info_table">
-                        <div class="accordion" id="accordion3">
-                           <div class="accordion-group">
-                              <div class="accordion-heading">
-                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion21"
-                                    href="#collapseOneOne">
-                                    Collabera Documents
-                                 </a>
-                              </div>
-                              <div id="collapseOneOne" class="accordion-body collapse in">
-                                 <div class="accordion-inner">
-                                    <div class="table_wrap">
-                                       <div class="custom_table_head">
-                                          <div class="custom_tr row">
-                                             <div class="custom_th colw-44">Document</div>
-                                             <div class="custom_th colw-14">Status</div>
-                                             <div class="custom_th colw-14">Signed</div>
-                                             <div class="custom_th colw-14">View</div>
-                                             <div class="custom_th colw-14">Download</div>
-                                          </div>
-                                       </div>
-                                       <div class="custom_table_body">
-                                          <div class="custom_tr row">
-                                             <div class="custom_td colw-44">
-                                                GCI Exhibit B-Minority Questionnaire
-                                             </div>
-                                             <div class="custom_td colw-14 status_rej">
-                                                Rejected
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                0
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span class="modal_open" data-modalname=""><img
-                                                      src="./images/icons/ic-doc-view.svg" alt="ic-doc-view"></span>
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span><img src="./images/icons/ic-download-latest.svg"
-                                                      alt="ic-download-latest"></span>
-                                             </div>
-                                          </div>
-                                          <div class="custom_tr row">
-                                             <div class="custom_td colw-44">
-                                                Release Letter
-                                             </div>
-                                             <div class="custom_td colw-14 status_sign">
-                                                Signed
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                0
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span><img src="./images/icons/ic-doc-view.svg"
-                                                      alt="ic-upload-latest"></span>
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span><img src="./images/icons/ic-download-latest.svg"
-                                                      alt="ic-download-latest"></span>
-                                             </div>
-                                          </div>
-                                          <div class="custom_tr row">
-                                             <div class="custom_td colw-44">
-                                                Work Order
-                                             </div>
-                                             <div class="custom_td colw-14 status_sign">
-                                                Signed
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                0
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span class="modal_open" data-modalname=""><img
-                                                      src="./images/icons/ic-doc-view.svg"
-                                                      alt="ic-upload-latest"></span>
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span><img src="./images/icons/ic-download-latest.svg"
-                                                      alt="ic-download-latest"></span>
-                                             </div>
-                                          </div>
-                                          <div class="custom_tr row">
-                                             <div class="custom_td colw-44">
-                                                Work Order Amendment
-                                             </div>
-                                             <div class="custom_td colw-14 status_sign">
-                                                Signed
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                0
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span class="modal_open" data-modalname=""><img
-                                                      src="./images/icons/ic-doc-view.svg"
-                                                      alt="ic-upload-latest"></span>
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span><img src="./images/icons/ic-download-latest.svg"
-                                                      alt="ic-download-latest"></span>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="accordion-group custom_tr">
-                  <div class="accordion-heading">
-                     <div class="accordion-toggle custom_tr row collapsed">
-                        <div class="custom_td colw-2 pdx-2">
-                           <a data-toggle="collapse" data-parent="#accordion21" href="#collapseTwothr"
-                              class="collapsed plus-toggle">&nbsp;</a>
-                        </div>
-                        <div class="custom_td colw-16 pdl-2">Prateek Singh</div>
-                        <div class="custom_td colw-25">
-                           Accenture
-                        </div>
-                        <div class="custom_td colw-13">07/23/2022</div>
-                        <div class="custom_td colw-19">shivani.sthakur@collabera.com</div>
-                        <div class="custom_td colw-13">07/23/2022</div>
-                        <div class="custom_td colw-4">
-                           <div class="table_actions">
-                              <span class="modal_open" data-modalName="emailWrap"><img src="./images/icons/ic-mail.svg"
-                                    alt="ic-mail" /></span>
-                           </div>
-                        </div>
-                        <div class="custom_td colw-4">
-                           <div class="table_actions">
-                              <span class="info-tooltip" data-modalName="emailWrap">
-                                 <img class="open_popup" src="./images/icons/ic-person.svg" alt="ic-mail" />
-                                 <div class="action_popup withLogo">
-                                    <div class="col-sm-12 pd-0 pdy-3 d-flex flex-wrap">
-                                       <div
-                                          class="col-lg-3 text-center float-none d-flex align-items-center justify-content-center">
-                                          <img class="" src="./images/logo-collabera-135x44.png" alt="">
-                                       </div>
-                                       <div class="col-lg-9 float-none pdx-0">
-                                          <div class="popup_header border-0">
-                                             <h6 class="">Onboarding Contact</h6>
-                                             <span class="close_popup"><img src="./images/icons/ic-popup-close.svg"
-                                                   alt="ic-popup-close"></span>
-                                          </div>
-                                          <div class="popup_body pdt-0">
-                                             <div class="row">
-                                                <div class="col-sm-12 d-flex flex-wrap rej_req_info">
-                                                   <span class="icon-block">
-                                                      <img src="./images/icons/ic-person.svg" alt="ic-person">
-                                                   </span>
-                                                   <span class="details-block pdt-1 pdl-1">
-                                                      <p>Kailash Maheshwari</p>
-                                                      <small>Senior Team Lead Operations</small>
-                                                   </span>
-                                                </div>
-                                                <div class="col-sm-12 d-flex flex-wrap rej_req_info">
-                                                   <span class="icon-block">
-                                                      <img src="./images/icons/ic-mail.svg" alt="ic-person">
-                                                   </span>
-                                                   <span class="details-block pdt-1 pdl-1">
-                                                      <p>
-                                                         <a
-                                                            href="mailto:kailash.maheshwari@collabera.com">kailash.maheshwari@collabera.com</a>
-                                                      </p>
-                                                   </span>
-                                                </div>
-                                                <div class="col-sm-12 d-flex flex-wrap rej_req_info">
-                                                   <span class="icon-block">
-                                                      <img src="./images/icons/ic-contact.svg" alt="ic-person">
-                                                   </span>
-                                                   <span class="details-block pdt-1 pdl-1">
-                                                      <p>
-                                                         <a href="tel:9738895200">973 889 5200</a>
-                                                      </p>
-                                                   </span>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </span>
-                           </div>
-                        </div>
-                        <div class="custom_td colw-4">
-                           <div class="table_actions">
-                              <span class="modal_open" data-modalName="emailWrap"><img
-                                    src="./images/icons/ic-pin-unactive.svg" alt="ic-mail" /></span>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div id="collapseTwothr" class="accordion-body collapse expanded_data">
-                     <div class="accordion-inner info_table">
-                        <div class="accordion" id="accordion3">
-                           <div class="accordion-group">
-                              <div class="accordion-heading">
-                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
-                                    href="#collapseOneOne">
-                                    Collabera Documents
-                                 </a>
-                              </div>
-                              <div id="collapseOneOne" class="accordion-body collapse in">
-                                 <div class="accordion-inner">
-                                    <div class="table_wrap">
-                                       <div class="custom_table_head">
-                                          <div class="custom_tr row">
-                                             <div class="custom_th colw-44">Document</div>
-                                             <div class="custom_th colw-14">Status</div>
-                                             <div class="custom_th colw-14">Signed</div>
-                                             <div class="custom_th colw-14">View</div>
-                                             <div class="custom_th colw-14">Download</div>
-                                          </div>
-                                       </div>
-                                       <div class="custom_table_body">
-                                          <div class="custom_tr row">
-                                             <div class="custom_td colw-44">
-                                                GCI Exhibit B-Minority Questionnaire
-                                             </div>
-                                             <div class="custom_td colw-14 status_rej">
-                                                Rejected
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                0
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span class="modal_open" data-modalname=""><img
-                                                      src="./images/icons/ic-doc-view.svg" alt="ic-doc-view"></span>
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span><img src="./images/icons/ic-download-latest.svg"
-                                                      alt="ic-download-latest"></span>
-                                             </div>
-                                          </div>
-                                          <div class="custom_tr row">
-                                             <div class="custom_td colw-44">
-                                                Release Letter
-                                             </div>
-                                             <div class="custom_td colw-14 status_sign">
-                                                Signed
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                0
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span><img src="./images/icons/ic-doc-view.svg"
-                                                      alt="ic-upload-latest"></span>
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span><img src="./images/icons/ic-download-latest.svg"
-                                                      alt="ic-download-latest"></span>
-                                             </div>
-                                          </div>
-                                          <div class="custom_tr row">
-                                             <div class="custom_td colw-44">
-                                                Work Order
-                                             </div>
-                                             <div class="custom_td colw-14 status_sign">
-                                                Signed
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                0
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span class="modal_open" data-modalname=""><img
-                                                      src="./images/icons/ic-doc-view.svg"
-                                                      alt="ic-upload-latest"></span>
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span><img src="./images/icons/ic-download-latest.svg"
-                                                      alt="ic-download-latest"></span>
-                                             </div>
-                                          </div>
-                                          <div class="custom_tr row">
-                                             <div class="custom_td colw-44">
-                                                Work Order Amendment
-                                             </div>
-                                             <div class="custom_td colw-14 status_sign">
-                                                Signed
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                0
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span class="modal_open" data-modalname=""><img
-                                                      src="./images/icons/ic-doc-view.svg"
-                                                      alt="ic-upload-latest"></span>
-                                             </div>
-                                             <div class="custom_td colw-14">
-                                                <span><img src="./images/icons/ic-download-latest.svg"
-                                                      alt="ic-download-latest"></span>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
          </div>
          <div class="clear-fix clearfix"></div>
       </div>
       <div data-content="two" class="">
          <div class="omne-card summary-details with-top-navmenu with-top-secondarynav">
-            <div class="coll-lg-12 bb-1 pd-0 summary-details-head">
-              <h4 class="mg-0 pdy-2">Artech Information <small>(VC001245)</small>
-                <span class="panel-title float-right"><a data-toggle="collapse" href="#collapseConsultantDetails2" aria-expanded="true" aria-controls="collapseConsultantDetails" class="pd-0 d-inline-block pdt-1"><img class="ic-angle-down" width="14" height="14" src="./images/icons/ic-angle-down-cropped.svg" alt="ic-pin"></a></span>
-              </h4>
+            <div class="col-lg-12 bb-1 pd-0 summary-details-head">
+               <h4 class="mg-0 pdy-2">Artech Information <small>(VC001245)</small>
+                  <span class="panel-title float-right"><a data-toggle="collapse" href="#collapseConsultantDetails2"
+                        aria-expanded="true" aria-controls="collapseConsultantDetails"
+                        class="pd-0 d-inline-block pdt-1"><img class="ic-angle-down" width="14" height="14"
+                           src="./images/icons/ic-angle-down-cropped.svg" alt="ic-pin"></a></span>
+               </h4>
             </div>
-            <div id="collapseConsultantDetails2" role="tabpanel" aria-labelledby="collapseConsultantDetails2" class="panel-collapse ng-star-inserted collapse in" aria-expanded="true" style="">
-              <div class="summary-details-body pdy-3 pdx-4">
-                <div class="keyValuePair-mainDiv d-flex flex-row flex-lg-nowrap flex-wrap">
-                  <div class="sod_table keyValTable mgb-4 mgb-lg-0">
-                    <div class="keyValRow">
-                      <div class="keyVal_key">
-                        <span><img src="./images/icons/ic-employee-code.svg" alt="job-title"></span>
-                        Contact Person
-                      </div>
-                      <div class="keyVal_val">
-                        Pradeep Joshi
-                      </div>
-                    </div>
-                    <div class="keyValRow">
-                      <div class="keyVal_key">
-                        <span><img src="./images/icons/ic-group.svg" alt="ic-estimated-start"></span>
-                        Active Consultants
-                      </div>
-                      <div class="keyVal_val">
-                        80
-                      </div>
-                    </div>
+            <div class="clearfix clear-fix"></div>
+            <div id="collapseConsultantDetails2" role="tabpanel" aria-labelledby="collapseConsultantDetails2"
+               class="panel-collapse ng-star-inserted collapse in" aria-expanded="true" style="">
+               <div class="summary-details-body pdy-3 pdx-4">
+                  <div class="keyValuePair-mainDiv d-flex flex-row flex-lg-nowrap flex-wrap col-lg-12 pd-0">
+                     <div class="sod_table keyValTable mgb-4 mgb-lg-0">
+                        <div class="keyValRow">
+                           <div class="keyVal_key">
+                              <span><img src="./images/icons/ic-employee-code.svg" alt="job-title"></span>
+                              Contact Person
+                           </div>
+                           <div class="keyVal_val">
+                              Pradeep Joshi
+                           </div>
+                        </div>
+                        <div class="keyValRow">
+                           <div class="keyVal_key">
+                              <span><img src="./images/icons/ic-group.svg" alt="ic-estimated-start"></span>
+                              Active Consultants
+                           </div>
+                           <div class="keyVal_val">
+                              80
+                           </div>
+                        </div>
+                     </div>
+                     <div class="sod_table keyValTable mgb-4 mgb-lg-0">
+                        <div class="keyValRow">
+                           <div class="keyVal_key">
+                              <span><img src="./images/icons/ic-email-id.svg" alt="ic-project-location"></span>
+                              Email ID
+                           </div>
+                           <div class="keyVal_val">
+                              artech.info@domain.com
+                           </div>
+                        </div>
+                        <div class="keyValRow">
+                           <div class="keyVal_key">
+                              <span><img src="./images/icons/ic-group.svg" alt="ic-flag"></span>
+                              Inactive Consultants
+                           </div>
+                           <div class="keyVal_val">
+                              10
+                           </div>
+                        </div>
+                     </div>
+                     <div class="sod_table keyValTable mgb-4 mgb-lg-0">
+                        <div class="keyValRow">
+                           <div class="keyVal_key">
+                              <span><img src="./images/icons/ic-contact-details.svg" alt="ic-billing-company"></span>
+                              Contact Details
+                           </div>
+                           <div class="keyVal_val">
+                              000 000 00000
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                  <div class="sod_table keyValTable mgb-4 mgb-lg-0">
-                    <div class="keyValRow">
-                      <div class="keyVal_key">
-                        <span><img src="./images/icons/ic-email-id.svg" alt="ic-project-location"></span>
-                        Email ID
-                      </div>
-                      <div class="keyVal_val">
-                        artech.info@domain.com
-                      </div>
-                    </div>
-                    <div class="keyValRow">
-                      <div class="keyVal_key">
-                        <span><img src="./images/icons/ic-group.svg" alt="ic-flag"></span>
-                        Inactive Consultants
-                      </div>
-                      <div class="keyVal_val">
-                        10
-                      </div>
-                    </div>
-                  </div>
-                  <div class="sod_table keyValTable mgb-4 mgb-lg-0">
-                    <div class="keyValRow">
-                      <div class="keyVal_key">
-                        <span><img src="./images/icons/ic-contact-details.svg" alt="ic-billing-company"></span>
-                        Contact Details
-                      </div>
-                      <div class="keyVal_val">
-                        000 000 00000
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                  <div class="clearfix clear-fix"></div>
+               </div>
             </div>
-          </div>
+         </div>
          <div class="omne-card doc_inbox">
             <div class="inbox-header col-lg-12 pd-0 d-flex flex-wrap justify-content-between pdy-2">
                <div class="col-lg-3 d-flex align-items-center">
@@ -572,28 +482,35 @@
                </div>
                <div class="col-lg-9 d-flex flex-wrap justify-content-start">
                   <div class="col-lg-6 pd-0 mgr-lg-5">
-                     <div class="form-group input_icon mgb-3 mgb-lg-0">
-                        <input type="text" id="ERName" class="text_12 form-control"
-                           placeholder="Search by Candidate Name" value="">
-                        <span>
-                           <img src="./images/icons/ic-search.svg" alt="ic-search">
+                     <div class="form-group mgb-3 mgb-lg-0">
+                        <!-- <label for="SearchInput">Search Input with Icon</label> -->
+                        <span class="has-icon">
+                          <input type="text" id="SearchInput" class="form-control" placeholder="Search by Candidate Name" value="">
+                          <i class="con">
+                            <img src="./images/icons/ic-search.svg">
+                          </i>
                         </span>
-                     </div>
+                      </div>
                   </div>
                   <div class="col-lg-4 pd-0">
-                     <div class="form-group dropdown mgb-3 mgb-lg-0">
-                        <span>
-                           <select class="form-control required" name="" id="">
-                              <option value="" selected style="color: red;">Select Document Type</option>
-                              <option value="">Reject</option>
-                           </select>
+                     <div class="form-group mgb-3 mgb-lg-0">
+                        <!-- <label for="SelectDocument">Select Document</label> -->
+                        <span class="has-icon">
+                          <select class="form-control required" name="" id="SelectDocument">
+                            <option value="">Select Document Type</option>
+                            <option value="">Document 1 type</option>
+                            <option value="">Document 2 type</option>
+                          </select>
+                          <i class="con">
+                            <img src="./images/icons/ic-bottom-arrow.svg">
+                          </i>
                         </span>
-                     </div>
+                      </div>
                   </div>
                </div>
             </div>
             <div class="clearfix clear-fix"></div>
-            <div class="table_wrap inbox-table-main accordion pd-4 table-respo" id="accordion1">
+            <div class="table_wrap inbox-table-main accordion pd-3 table-respo" id="accordion1">
                <div class="custom_table_head">
                   <div class="custom_tr row accordion-group">
                      <div class="custom_th colw-2">&nbsp;</div>
@@ -699,9 +616,9 @@
                               <div class="docs_mainwrap active mgb-2">
                                  <a data-toggle="collapse" data-target="#col_doc" aria-expanded="true">
                                     <b>Collabera Documents <span>
-                                       <img class="ic-white" width="14" height="14" src="./images/icons/ic-angle-down-cropped.svg"
-                                          alt="ic-pin" />
-                                    </span></b>
+                                          <img class="ic-white" width="14" height="14"
+                                             src="./images/icons/ic-angle-down-cropped.svg" alt="ic-pin" />
+                                       </span></b>
                                  </a>
                                  <div class="docs_wrap collapse in" id="col_doc">
                                     <ul>
@@ -730,8 +647,8 @@
                                  <a data-toggle="collapse" data-target="#pol_doc" class="">
                                     <b>
                                        Information <span>
-                                          <img class="ic-white" width="14" height="14" src="./images/icons/ic-angle-down-cropped.svg"
-                                             alt="ic-pin" />
+                                          <img class="ic-white" width="14" height="14"
+                                             src="./images/icons/ic-angle-down-cropped.svg" alt="ic-pin" />
                                        </span>
                                     </b>
                                  </a>
@@ -746,8 +663,8 @@
                                  <a data-toggle="collapse" data-target="#client_doc" class="">
                                     <b>
                                        Client Documents <span>
-                                          <img class="ic-white" width="14" height="14" src="./images/icons/ic-angle-down-cropped.svg"
-                                          alt="ic-pin" />
+                                          <img class="ic-white" width="14" height="14"
+                                             src="./images/icons/ic-angle-down-cropped.svg" alt="ic-pin" />
                                        </span>
                                     </b>
                                  </a>
@@ -1276,34 +1193,41 @@
       </div>
       <div data-content="thr" class="">
          <div class="esign-card with-top-navmenu with-top-secondarynav doc_inbox without-consultant-details">
-            <div class="inbox-header col-lg-12 pd-0 d-flex flex-wrap justify-content-between">
+            <div class="inbox-header col-lg-12 pd-0 d-flex flex-wrap justify-content-between pdy-2">
                <div class="col-lg-3 d-flex align-items-center">
-                  <h4 class="pd-0 pdt-3 pdy-lg-3 mg-0">Inbox</h4>
+                  <h4 class="pd-0 mg-0">Inbox</h4>
                </div>
-               <div class="col-lg-9 d-flex flex-wrap justify-content-start pdt-3">
+               <div class="col-lg-9 d-flex flex-wrap justify-content-start">
                   <div class="col-lg-6 pd-0 mgr-lg-5">
-                     <div class="form-group input_icon">
-                        <input type="text" id="ERName" class="text_12 form-control"
-                           placeholder="Search by Candidate Name" value="">
-                        <span>
-                           <img src="./images/icons/ic-search.svg" alt="ic-search">
+                     <div class="form-group mgb-3 mgb-lg-0">
+                        <!-- <label for="SearchInput">Search Input with Icon</label> -->
+                        <span class="has-icon">
+                          <input type="text" id="SearchInput" class="form-control" placeholder="Search by Candidate Name" value="">
+                          <i class="con">
+                            <img src="./images/icons/ic-search.svg">
+                          </i>
                         </span>
-                     </div>
+                      </div>
                   </div>
                   <div class="col-lg-4 pd-0">
-                     <div class="form-group dropdown">
-                        <span>
-                           <select class="form-control required" name="" id="">
-                              <option value="" selected style="color: red;">Select Document Type</option>
-                              <option value="">Reject</option>
-                           </select>
+                     <div class="form-group mgb-3 mgb-lg-0">
+                        <!-- <label for="SelectDocument">Select Document</label> -->
+                        <span class="has-icon">
+                          <select class="form-control required" name="" id="SelectDocument">
+                            <option value="">Select Document Type</option>
+                            <option value="">Document 1 type</option>
+                            <option value="">Document 2 type</option>
+                          </select>
+                          <i class="con">
+                            <img src="./images/icons/ic-bottom-arrow.svg">
+                          </i>
                         </span>
-                     </div>
+                      </div>
                   </div>
                </div>
             </div>
             <div class="clearfix clear-fix"></div>
-            <div class="table_wrap inbox-table-main accordion pd-4 table-respo" id="accordion21">
+            <div class="table_wrap inbox-table-main accordion pd-3 table-respo" id="accordion21">
                <div class="custom_table_head">
                   <div class="custom_tr row accordion-group">
                      <div class="custom_th colw-2">&nbsp;</div>

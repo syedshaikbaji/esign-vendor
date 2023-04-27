@@ -2406,3 +2406,232 @@
         margin-left: 48px !important;
     }
 }
+
+/* Info: font size START */
+.font-8 {
+    font-size: 8px;
+}
+.font-10 {
+    font-size: 10px;
+}
+.font-12 {
+    font-size: 12px;
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-16 {
+    font-size: 16px;
+}
+.font-18 {
+    font-size: 18px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.font-22 {
+    font-size: 22px;
+}
+.font-24 {
+    font-size: 24px;
+}
+.font-26 {
+    font-size: 26px;
+}
+.font-28 {
+    font-size: 28px;
+}
+.font-30 {
+    font-size: 30px;
+}
+@media (min-width: 576px) {
+    .font-sm-8 {
+        font-size: 8px;
+    }
+    .font-sm-10 {
+        font-size: 10px;
+    }
+    .font-sm-12 {
+        font-size: 12px;
+    }
+    .font-sm-14 {
+        font-size: 14px;
+    }
+    .font-sm-16 {
+        font-size: 16px;
+    }
+    .font-sm-18 {
+        font-size: 18px;
+    }
+    .font-sm-20 {
+        font-size: 20px;
+    }
+    .font-sm-22 {
+        font-size: 22px;
+    }
+    .font-sm-24 {
+        font-size: 24px;
+    }
+    .font-sm-26 {
+        font-size: 26px;
+    }
+    .font-sm-28 {
+        font-size: 28px;
+    }
+    .font-sm-30 {
+        font-size: 30px;
+    }
+}
+@media (min-width: 768px) {
+    .font-md-8 {
+        font-size: 8px;
+    }
+    .font-md-10 {
+        font-size: 10px;
+    }
+    .font-md-12 {
+        font-size: 12px;
+    }
+    .font-md-14 {
+        font-size: 14px;
+    }
+    .font-md-16 {
+        font-size: 16px;
+    }
+    .font-md-18 {
+        font-size: 18px;
+    }
+    .font-md-20 {
+        font-size: 20px;
+    }
+    .font-md-22 {
+        font-size: 22px;
+    }
+    .font-md-24 {
+        font-size: 24px;
+    }
+    .font-md-26 {
+        font-size: 26px;
+    }
+    .font-md-28 {
+        font-size: 28px;
+    }
+    .font-md-30 {
+        font-size: 30px;
+    }
+}
+@media (min-width: 992px) {
+    .font-lg-8 {
+        font-size: 8px;
+    }
+    .font-lg-10 {
+        font-size: 10px;
+    }
+    .font-lg-12 {
+        font-size: 12px;
+    }
+    .font-lg-14 {
+        font-size: 14px;
+    }
+    .font-lg-16 {
+        font-size: 16px;
+    }
+    .font-lg-18 {
+        font-size: 18px;
+    }
+    .font-lg-20 {
+        font-size: 20px;
+    }
+    .font-lg-22 {
+        font-size: 22px;
+    }
+    .font-lg-24 {
+        font-size: 24px;
+    }
+    .font-lg-26 {
+        font-size: 26px;
+    }
+    .font-lg-28 {
+        font-size: 28px;
+    }
+    .font-lg-30 {
+        font-size: 30px;
+    }
+}
+@media (min-width: 1200px) {
+    .font-xl-8 {
+        font-size: 8px;
+    }
+    .font-xl-10 {
+        font-size: 10px;
+    }
+    .font-xl-12 {
+        font-size: 12px;
+    }
+    .font-xl-14 {
+        font-size: 14px;
+    }
+    .font-xl-16 {
+        font-size: 16px;
+    }
+    .font-xl-18 {
+        font-size: 18px;
+    }
+    .font-xl-20 {
+        font-size: 20px;
+    }
+    .font-xl-22 {
+        font-size: 22px;
+    }
+    .font-xl-24 {
+        font-size: 24px;
+    }
+    .font-xl-26 {
+        font-size: 26px;
+    }
+    .font-xl-28 {
+        font-size: 28px;
+    }
+    .font-xl-30 {
+        font-size: 30px;
+    }
+}
+@media (min-width: 1400px) {
+    .font-xxl-8 {
+        font-size: 8px;
+    }
+    .font-xxl-10 {
+        font-size: 10px;
+    }
+    .font-xxl-12 {
+        font-size: 12px;
+    }
+    .font-xxl-14 {
+        font-size: 14px;
+    }
+    .font-xxl-16 {
+        font-size: 16px;
+    }
+    .font-xxl-18 {
+        font-size: 18px;
+    }
+    .font-xxl-20 {
+        font-size: 20px;
+    }
+    .font-xxl-22 {
+        font-size: 22px;
+    }
+    .font-xxl-24 {
+        font-size: 24px;
+    }
+    .font-xxl-26 {
+        font-size: 26px;
+    }
+    .font-xxl-28 {
+        font-size: 28px;
+    }
+    .font-xxl-30 {
+        font-size: 30px;
+    }
+}
+/* Info: font size END */

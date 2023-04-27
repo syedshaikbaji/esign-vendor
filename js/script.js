@@ -48,20 +48,26 @@ $(document).ready(function () {
     $('.box').matchHeight();
   });
 
-$('.gen-tab').on('click', function () {
-  showActiveTabContent($(this));
-});
-function showActiveTabContent(thiss) {
-  var tabname = thiss.data('tab');
-  $('*[data-content], *[data-tab]').removeClass('active');
-  $('*[data-content="' + tabname + '"], *[data-tab="' + tabname + '"]').addClass('active');
-}
+  $('.gen-tab').on('click', function () {
+    showActiveTabContent($(this));
+  });
+  function showActiveTabContent(thiss) {
+    var tabname = thiss.data('tab');
+    $('*[data-content], *[data-tab]').removeClass('active');
+    $('*[data-content="' + tabname + '"], *[data-tab="' + tabname + '"]').addClass('active');
+  }
 
   // var windowHeight = $(window).height();
   // var navHeight = $('.nav_menu.without_top_omne_bar').height();
   // var secondaryNavHeight = $('.secondary_nav.without_top_omne_bar').height();
   // var sendOffDetailsHeight = $('.sendOff_details').height();
   // $('.doc_inbox').css({'min-height': windowHeight - navHeight - secondaryNavHeight - sendOffDetailsHeight - 55});
+
+  $('.js_dropdown_container_handler, .has-dropdown .close').on('click', function () {
+    $(this).closest('.has-dropdown').hasClass('dropdown-on-show') ?
+    $(this).closest('.has-dropdown').removeClass('dropdown-on-show') :
+    $(this).closest('.has-dropdown').addClass('dropdown-on-show');
+  })
 })
 $(function () {
   $('.box').matchHeight();
