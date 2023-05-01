@@ -59,6 +59,12 @@
                   View Completed Docs
                </div>
             </div>
+            <div class="sn_item gen-tab" data-tab="fou">
+               <div class="tab_text">
+                  <img src="./images/icons/ic-completed-docs.svg" alt="ic-view-sent-docs-grey" />
+                  Information Docs
+               </div>
+            </div>
          </div>
       </div>
    </div>
@@ -68,7 +74,7 @@
       <div data-content="one" class="active">
          <div class="omne-card full-details">
             <div class="full-details-header bb-1 col-lg-12 d-flex flex-wrap justify-content-between pdy-2 pdx-0">
-               <div class="col-lg-9 pd-0 pdx-2">
+               <div class="col-lg-8 pd-0 pdx-2 d-flex flex-wrap">
                   <div class="col-lg-6 pd-0 pdx-2">
                      <div class="form-group mg-lg-0 mgb-3">
                         <label for="">&nbsp;</label>
@@ -90,26 +96,22 @@
                               </div>
                               <div class="advance-filter-body col-12 pd-0">
                                  <div class="col-lg-12 pd-0">
-                                    <div class="form-group col-lg-6 pd-0 pdx-3">
+                                    <div class="form-group col-md-12 col-lg-6 pd-0 pdx-3">
                                        <label for="SelectDocument">Select Document</label>
                                        <span class="has-icon">
-                                          <select class="form-control required" name="" id="SelectDocument">
-                                             <option value="">Select Document Type</option>
-                                             <option value="">Document 1 type</option>
-                                             <option value="">Document 2 type</option>
-                                          </select>
-                                          <i class="con">
+                                          <input type="date" class="form-control">
+                                          <!-- <i class="con">
                                              <img src="./images/icons/ic-bottom-arrow.svg">
-                                          </i>
+                                          </i> -->
                                        </span>
                                     </div>
                                  </div>
-                                 <div class="col-lg-6 pd-0 pdx-3">
+                                 <div class="col-md-12 col-lg-6 pd-0 pdx-3">
                                     <div class="form-group">
                                        <label for="SelectDocument">Select Document</label>
                                        <span class="has-icon">
                                           <select class="form-control required" name="" id="SelectDocument">
-                                             <option value="">Select Document Type</option>
+                                             <option value="">Multiple Documents</option>
                                              <option value="">Document 1 type</option>
                                              <option value="">Document 2 type</option>
                                           </select>
@@ -119,12 +121,12 @@
                                        </span>
                                     </div>
                                  </div>
-                                 <div class="col-lg-6 pd-0 pdx-3">
+                                 <div class="col-md-12 col-lg-6 pd-0 pdx-3">
                                     <div class="form-group">
                                        <label for="SelectDocument">Select Document</label>
                                        <span class="has-icon">
                                           <select class="form-control required" name="" id="SelectDocument">
-                                             <option value="">Select Document Type</option>
+                                             <option value="">Multiple Documents</option>
                                              <option value="">Document 1 type</option>
                                              <option value="">Document 2 type</option>
                                           </select>
@@ -134,12 +136,12 @@
                                        </span>
                                     </div>
                                  </div>
-                                 <div class="col-lg-6 pd-0 pdx-3">
+                                 <div class="col-md-12 col-lg-6 pd-0 pdx-3">
                                     <div class="form-group">
                                        <label for="SelectDocument">Select Document</label>
                                        <span class="has-icon">
                                           <select class="form-control required" name="" id="SelectDocument">
-                                             <option value="">Select Document Type</option>
+                                             <option value="">Multiple Documents</option>
                                              <option value="">Document 1 type</option>
                                              <option value="">Document 2 type</option>
                                           </select>
@@ -149,7 +151,7 @@
                                        </span>
                                     </div>
                                  </div>
-                                 <div class="col-lg-6 pd-0 pdx-3">
+                                 <div class="col-md-12 col-lg-6 pd-0 pdx-3">
                                     <div class="form-group">
                                        <label for="" class="">Status</label>
                                        <div class="form-check-inline height-35">
@@ -164,8 +166,15 @@
                                        </div>
                                     </div>
                                  </div>
+                                 <div class="clear-fix clearfix"></div>
                               </div>
-                              <div class="advance-filter-footer col-12 pd-0"></div>
+                              <div class="advance-filter-footer col-12 pd-0">
+                                 <div class="form-group mg-0 pd-0 pdx-3 text-right">
+                                    <button class="obtn obtn-outline obtn-reg">Reset</button>
+                                    <button class="obtn obtn-primary obtn-reg mgl-3">Apply</button>
+                                 </div>
+                                 <div class="clear-fix clearfix"></div>
+                              </div>
                            </div>
                         </span>
                      </div>
@@ -189,12 +198,12 @@
                   </div>
                </div>
                <div
-                  class="activeInactive-block col-lg-3 pd-0 pdx-2 d-flex flex-wrap align-items-center justify-content-start">
+                  class="activeInactive-block col-lg-4 pd-0 pdr-4 d-flex flex-wrap align-items-center justify-content-end">
                   <div class="form-group mg-0">
                      <label for="">&nbsp;</label>
-                     <span class="font-12 font-lg-16 font-weight-500 pdx-2">Active Count &nbsp;<b
+                     <span class="font-12 font-lg-16 font-weight-500 pdx-2" title="Active Consultants">Active Count &nbsp;<b
                            class="text-color--secondary">10</b></span>
-                     <span class="font-12 font-lg-16 font-weight-500 pdl-2">Inactive Count &nbsp;<b
+                     <span class="font-12 font-lg-16 font-weight-500 pdl-2" title="Inactive Consultants">Inactive Count &nbsp;<b
                            class="text-color--secondary">05</b></span>
                   </div>
                </div>
@@ -205,14 +214,14 @@
                   <table class="">
                      <thead>
                         <tr>
-                           <th class="colw-13 custom_th">Contributon</th>
-                           <th class="colw-13 custom_th">Stage</th>
-                           <th class="colw-13 custom_th">Sub Stage</th>
-                           <th class="colw-13 custom_th">Client/ Consultant</th>
-                           <th class="colw-12 custom_th">Payment Applicable</th>
+                           <th class="colw-13 custom_th">Candidate Name</th>
+                           <th class="colw-13 custom_th">Client/EndClient</th>
+                           <th class="colw-13 custom_th">Project Location</th>
+                           <th class="colw-13 custom_th">Start Date</th>
+                           <th class="colw-12 custom_th">Ops. Executive</th>
+                           <th class="colw-12 custom_th">Recruiter</th>
                            <th class="colw-12 custom_th">Status</th>
-                           <th class="colw-12 custom_th">Units</th>
-                           <th class="colw-12 custom_th">Amount</th>
+                           <th class="colw-12 custom_th">&nbsp;</th>
                         </tr>
                      </thead>
                      <tbody>
@@ -1630,6 +1639,13 @@
                   </div>
                </div>
             </div>
+         </div>
+         <div class="clear-fix clearfix"></div>
+      </div>
+      <div data-content="fou" class="">
+         <div class="omne-card with-top-navmenu with-top-secondarynav doc_inbox without-consultant-details">
+            <h1>Information Docs Content goes here</h1>
+            <div class="clear-fix clearfix"></div>
          </div>
          <div class="clear-fix clearfix"></div>
       </div>
